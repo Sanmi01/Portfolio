@@ -289,7 +289,6 @@ img {
 }
 
 #projects {
-  background-color: #141414;
   padding: 2rem;
   font-size: 1.2rem;
 }
@@ -415,7 +414,6 @@ img {
   height: -moz-max-content;
   height: max-content;
   padding: 0 2rem;
-  background-color: #17171d;
   padding-bottom: 2rem;
 }
 
