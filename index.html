@@ -67,12 +67,31 @@
             </div>
         </section>
 
-        <!----
+        
         <section id="projects" class="grey-bg">
             <div class="first">
                 <h2>Projects</h2>
-            <p>Some of my works include</p>
+            <p>Some of my projects include</p>
             </div>
+            <div class="projects-display">
+                <div class="project left-project">
+                    <li>Implemented a DevOps pipeline utilizing Terraform and Ansible to provision and configure 3 EC2 instances behind an Elastic Load Balancer,then set up a domain using AWS Route53 and wrote an Ansible script to install Apache and set a custom timezone while displaying a unique HTML page on all 3 instances
+                    </li>
+                    <li>
+                        Developed and deployed a personal website in a containerized environment using Nginx, Docker, and Google Kubernetes Engine(GKE), resulting in a publicly accessible website hosted on Google Cloud Platform(GCP)
+                    </li>
+                </div>
+                <div class="project left-project">
+                        <li>
+                            Deploy an Nginx web server on multiple instances using Ansible, then set up an ALB to route requests and make sure each server displays its own Hostname or IP address using HTML.
+                        </li>
+                        <li>
+                            Used Amazon’s Virtual Private Cloud (Amazon VPC) service to launch AWS resources in a logically isolated virtual network that I designed. Launched multiple instances, public and a private subnet, used the private subnet for databases to protect it from the internet and used the public subnet for web servers. Elastic Load Balancing was used to automatically distribute incoming application traffic across multiple targets.
+                        </li>
+                </div>
+            </div>
+
+            <!----
             <div class="projects-display">
                 <div class="project left-project">
                     <div class="project-description">
