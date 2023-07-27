@@ -48,7 +48,7 @@ import ProjectsViewExpanded from '../components/projects/ProjectsViewExpanded.vu
 
 export default defineComponent({
   // components: { ProjectsNavigation, ProjectsViewCollapsed, ProjectsProjectControls, ProjectsPositionTracker, ProjectsBottomNavigation, ProjectsProjectMobileControl, ProjectsViewExpanded },
-  components: { ProjectsViewCollapsed, ProjectsProjectControls, ProjectsPositionTracker, ProjectsBottomNavigation, ProjectsProjectMobileControl, ProjectsViewExpanded },
+  components: { ProjectsViewCollapsed, ProjectsProjectControls, ProjectsPositionTracker, ProjectsProjectMobileControl, ProjectsViewExpanded },
 
   props: {
     projectId: {

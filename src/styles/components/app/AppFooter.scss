@@ -7,7 +7,7 @@ $footer-bg: #181A24;
   padding: 20px 0px;
   background: $footer-bg;
   &.has-projects-in-view {
-    margin-bottom: 46px;
+    // margin-bottom: 46px;
     @media screen and #{globals.$breakpoint-sm} {
       margin-bottom: 0;
     }

@@ -34,6 +34,11 @@ $faded-blue: lighten(blue, 45);
       padding: 0px 10px;
       border-radius: 4px;
     }
+
+    @media (max-width: 425px) {
+      gap: 5px;
+      grid-gap: 5px;
+    }
   }
   &__separator {
     font-size: 3em;
