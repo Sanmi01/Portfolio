@@ -1,0 +1,39 @@
+@use '../../../variables.scss' as colors;
+
+._avatar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  max-width: max-content; 
+  .app_avatar {
+    background: url("/src/assets/images/avatar.png");
+    $avatarSize: 35px;
+    width: $avatarSize;
+    height: $avatarSize;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .app_name {
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    @media screen and #{colors.$breakpoint-sm} {
+      font-size: 1.2em;
+      margin-left: 2px;
+    }
+    font-size: 1.1em;
+    color: colors.$secondaryOrange;
+    margin-left: 2px;
+  }
+}
