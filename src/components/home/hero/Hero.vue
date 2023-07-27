@@ -49,10 +49,11 @@
 import { defineComponent } from 'vue'
 import AppIcon from '../../common/AppIcon.vue'
 import HeroBubbles from './HeroBubbles.vue'
-import vuejsIcon from '../../../assets/icons/vuejs.svg'
+import htmlIcon from '../../../assets/icons/html.svg'
+import cssIcon from '../../../assets/icons/css.svg'
+import javascriptIcon from '../../../assets/icons/javascript.svg'
+import tailwindIcon from '../../../assets/icons/tailwind.svg'
 import reactjsIcon from '../../../assets/icons/reactjs.svg'
-import nuxtjsIcon from '../../../assets/icons/nuxtjs.svg'
-import nodejsIcon from '../../../assets/icons/nodejs.svg'
 
 interface StackIcon {
   id: number,
@@ -70,24 +71,29 @@ export default defineComponent({
     stackIcons: [
     {
         id: 1,
+        name: 'HTML5',
+        asset: htmlIcon
+      },
+    {
+        id: 2,
+        name: 'CSS3',
+        asset: cssIcon
+      },
+    {
+        id: 3,
+        name: 'JavaScript',
+        asset: javascriptIcon
+      },
+    {
+        id: 4,
+        name: 'TailwindCSS',
+        asset: tailwindIcon
+      },
+    {
+        id: 5,
         name: 'react.js',
         asset: reactjsIcon
       },
-      // {
-      //   id: 2,
-      //   name: 'vue.js',
-      //   asset: vuejsIcon
-      // },
-      // {
-      //   id: 0,
-      //   name: 'nuxt.js',
-      //   asset: nuxtjsIcon
-      // },
-      // {
-      //   id: 3,
-      //   name: 'node.js',
-      //   asset: nodejsIcon
-      // }
     ] as StackIcon[]
   })
 })
