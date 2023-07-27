@@ -70,7 +70,7 @@
           </div>
 
           <div class="skill_card__action">
-            <router-link to="/projects?label=frontend">
+            <router-link to="/projects">
               <button class="skill_card__action--button">View Projects</button>
             </router-link>
           </div>
