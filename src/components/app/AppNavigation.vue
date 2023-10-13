@@ -107,7 +107,7 @@ export default defineComponent({
         id: 5,
         icon: 'file',
         name: 'CV',
-        url: 'https://docs.google.com/document/d/1cu0sJfxUva_Gp_6Qwidmzc_VM7XeFHhLZJrVpsrvW28/edit?usp=sharing',
+        url: 'https://docs.google.com/document/d/1lgjebsVIp2-sLJAhG74nODNLN8ez_MxD/edit',
         color: '#171515'
       },
     ] as SocialMediaInterface[]
