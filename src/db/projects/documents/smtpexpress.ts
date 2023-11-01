@@ -5,7 +5,7 @@ export const smtpexpress:PortfolioProject = {
   name: 'SMTP Express',
   label: 'frontend',
   feature: true,
-  position: 1,
+  position: 2,
   primaryImage: {
     id: 1,
     name: 'SMTP Express - Dashboard',
