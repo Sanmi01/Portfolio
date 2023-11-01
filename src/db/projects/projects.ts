@@ -33,9 +33,9 @@ export interface ProjectImage {
 }
 
 const projectObjects = [
+  animalia,
   smtpexpress,
   verapax,
-  animalia,
 ]
 
 export default projectObjects
