@@ -10,8 +10,8 @@ export const animalia:PortfolioProject = {
     id: 1,
     url: 'https://res.cloudinary.com/sanmi01/image/upload/v1690296776/animalia-overview_chws6r.png'
   },
-  domainName: 'animaliaapp.com',
-  url: 'https://www.animaliaapp.com',
+  domainName: 'animalia-web.netlify.app',
+  url: 'https://animalia-web.netlify.app/',
   metaDescription: 'Animalia is a delightful social media app tailor-made for animal lovers, encompassing those who live, work, or simply cherish these adorable creatures.',
   description: 'Animalia is a delightful social media app tailor-made for animal lovers, encompassing those who live, work, or simply cherish these adorable creatures. Our platform seamlessly combines the joy of education and entertainment, featuring a community-driven knowledge bank akin to Wikipedia, alongside a fun and engaging social interaction, posting, and following mechanism reminiscent of Instagram.',
   technologies: [
