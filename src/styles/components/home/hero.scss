@@ -34,7 +34,7 @@
     padding: 0px 40px;
     transition: ease-out 300ms;
     transition-property: padding;
-    background: linear-gradient( rgba(colors.$primaryDark, 0.5), colors.$primaryDark), url('/src/assets/images/profile.multi.primary.png');
+    // background: linear-gradient( rgba(colors.$primaryDark, 0.5), colors.$primaryDark), url('/src/assets/images/profile.multi.primary.png');
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@
       right: 0;
       min-height: inherit;
       max-height: inherit;
-      background: url('/src/assets/images/profile.multi.primary.png');
+      // background: url('/src/assets/images/profile.multi.primary.png');
       background-position: top center;
       background-size: cover;
       position: absolute;

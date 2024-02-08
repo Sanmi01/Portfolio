@@ -14,7 +14,7 @@
       margin-top: 3em;
       background: none;
       @media screen and #{globals.$breakpoint-sm} {
-        background: linear-gradient( to top, rgba(globals.$primaryDark, 0.5) 50%, rgba(globals.$primaryDark, 0.5) 50%), url('/src/assets/images/profile.multi.primary.png');
+        // background: linear-gradient( to top, rgba(globals.$primaryDark, 0.5) 50%, rgba(globals.$primaryDark, 0.5) 50%), url('/src/assets/images/profile.multi.primary.png');
         background-size: 40% 100%;
         background-repeat: no-repeat;
         background-size: contain;
