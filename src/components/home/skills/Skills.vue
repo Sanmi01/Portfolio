@@ -95,6 +95,10 @@
                 <img src="/src/assets/icons/check.svg" alt="" />
                 <p class="item__name">React.js</p>
               </div>
+              <div class="item">
+                <img src="/src/assets/icons/check.svg" alt="" />
+                <p class="item__name">Next.js</p>
+              </div>
               <!-- <div class="item">
                 <img src="/src/assets/icons/check.svg" alt="" />
                 <p class="item__name">TypeScript</p>

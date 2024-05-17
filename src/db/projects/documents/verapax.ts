@@ -5,7 +5,7 @@ export const verapax:PortfolioProject = {
   name: 'Verapax Tech',
   label: 'frontend',
   feature: true,
-  position: 3,
+  position: 4,
   primaryImage: {
     id: 1,
     name: 'VeraPax Tech Home',

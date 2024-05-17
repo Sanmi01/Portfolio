@@ -1,6 +1,7 @@
 import { smtpexpress } from './documents/smtpexpress';
 import { verapax } from './documents/verapax';
 import { animalia } from './documents/animalia';
+import { wayfm } from './documents/wayfm';
 
 export interface PortfolioProject {
   id: string
@@ -33,6 +34,7 @@ export interface ProjectImage {
 }
 
 const projectObjects = [
+  wayfm,
   animalia,
   smtpexpress,
   verapax,
