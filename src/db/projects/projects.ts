@@ -1,4 +1,5 @@
 import { smtpexpress } from './documents/smtpexpress';
+import { moneylang } from './documents/moneylang'
 import { verapax } from './documents/verapax';
 import { animalia } from './documents/animalia';
 import { wayfm } from './documents/wayfm';
@@ -35,8 +36,9 @@ export interface ProjectImage {
 
 const projectObjects = [
   wayfm,
-  animalia,
+  moneylang,
   smtpexpress,
+  animalia,
   verapax,
 ]
 

@@ -17,9 +17,11 @@
             <app-icon :icon="platform.icon" :hover="platform.color" size="1.4" />
           </a>
         </div>
+        <!-- 
         <p class="copyright">
-          &copy; copyright 2023. NiCode.dev
+          &copy; copyright 2023. NiCode
         </p>
+        -->
       </div>
     </div>
   </footer>

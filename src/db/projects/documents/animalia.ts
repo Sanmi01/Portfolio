@@ -5,7 +5,7 @@ export const animalia:PortfolioProject = {
   name: 'Animalia',
   label: 'frontend',
   feature: true,
-  position: 2,
+  position: 4,
   primaryImage: {
     id: 1,
     url: 'https://res.cloudinary.com/sanmi01/image/upload/v1690296776/animalia-overview_chws6r.png'

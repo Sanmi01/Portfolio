@@ -19,7 +19,7 @@ import ProjectsWindow from './ProjectsWindow.vue'
 export default defineComponent({
   components: { ProjectsWindow, CommonSectionTitle },
   data: () => ({
-    projects: projectObjects.slice(0, 3)
+    projects: projectObjects.slice(0, 4)
   })
 })
 </script>
