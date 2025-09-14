@@ -31,7 +31,7 @@ export const moneylang:PortfolioProject = {
       url: 'https://microsoft.github.io/monaco-editor'
     }
   ],
-  durationOfCompletion: 'March 2023 - Present',
+  durationOfCompletion: 'June 2025 - August 2025',
   myRole: "Responsible for the complete frontend architecture and MoneyLang language integration. Designed and implemented the Monaco Editor configuration with custom syntax highlighting, intelligent autocompletion, and real-time validation. Built the template system, theme management, and responsive UI components. Developed the execution engine integration and output visualization components for transaction postings and account balances.",
   productsDeveloped: ['MoneyLang Playground Web IDE'],
   snapshots: [
