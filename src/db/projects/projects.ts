@@ -3,6 +3,7 @@ import { moneylang } from './documents/moneylang'
 import { verapax } from './documents/verapax';
 import { animalia } from './documents/animalia';
 import { wayfm } from './documents/wayfm';
+import { smartfarm } from './documents/smartfarm';
 
 export interface PortfolioProject {
   id: string
@@ -38,6 +39,7 @@ const projectObjects = [
   wayfm,
   moneylang,
   smtpexpress,
+  smartfarm,
   animalia,
   verapax,
 ]

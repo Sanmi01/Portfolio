@@ -52,22 +52,22 @@
         <!-- FRONTEND  -->
         <div class="skill_card">
           <div class="skill_card__title">
-            <h3 class="skill_card__title--skill_name">
-              FRONTEND WEB DEVELOPMENT
-            </h3>
-            <hr class="skill_card__title--line_element" />
-          </div>
+          <h3 class="skill_card__title--skill_name">
+            FRONTEND WEB DEVELOPMENT
+          </h3>
+          <hr class="skill_card__title--line_element" />
+        </div>
 
           <div class="skill_card__details">
-            <p class="skill_card__details--content">
-              I use Frontend technologies (<span class="highlight">
-                React.js
-              </span>
-              and <span class="highlight"> Tailwind </span> ) to build modern
-              and responsive websites and web apps. I also create custom layouts
-              to fit your needs with my vast knowledge of CSS
-            </p>
-          </div>
+          <p class="skill_card__details--content">
+            I use Frontend technologies (<span class="highlight">React.js</span>,
+            <span class="highlight">Next.js</span>, and
+            <span class="highlight">TypeScript</span>) to build modern, responsive
+            websites and web apps. I also have experience building
+            <span class="highlight">AI-powered applications</span> with backend
+            technologies like Node.js and NestJS.
+          </p>
+        </div>
 
           <div class="skill_card__action">
             <router-link to="/projects">
@@ -90,7 +90,6 @@
                 <img src="/src/assets/icons/check.svg" alt="" />
                 <p class="item__name">JavaScript</p>
               </div>
-
               <div class="item">
                 <img src="/src/assets/icons/check.svg" alt="" />
                 <p class="item__name">React.js</p>
@@ -99,13 +98,9 @@
                 <img src="/src/assets/icons/check.svg" alt="" />
                 <p class="item__name">Next.js</p>
               </div>
-              <!-- <div class="item">
-                <img src="/src/assets/icons/check.svg" alt="" />
-                <p class="item__name">TypeScript</p>
-              </div> -->
               <div class="item">
                 <img src="/src/assets/icons/check.svg" alt="" />
-                <p class="item__name">BootStrap</p>
+                <p class="item__name">TypeScript</p>
               </div>
               <div class="item">
                 <img src="/src/assets/icons/check.svg" alt="" />
@@ -113,25 +108,24 @@
               </div>
               <div class="item">
                 <img src="/src/assets/icons/check.svg" alt="" />
+                <p class="item__name">Node.js</p>
+              </div>
+              <div class="item">
+                <img src="/src/assets/icons/check.svg" alt="" />
+                <p class="item__name">NestJS</p>
+              </div>
+              <div class="item">
+                <img src="/src/assets/icons/check.svg" alt="" />
+                <p class="item__name">MongoDB</p>
+              </div>
+              <div class="item">
+                <img src="/src/assets/icons/check.svg" alt="" />
+                <p class="item__name">OpenAI API</p>
+              </div>
+              <div class="item">
+                <img src="/src/assets/icons/check.svg" alt="" />
                 <p class="item__name">Git</p>
               </div>
-              <div class="item">
-                <img src="/src/assets/icons/check.svg" alt="" />
-                <p class="item__name">GitHub</p>
-              </div>
-              <div class="item">
-                <img src="/src/assets/icons/check.svg" alt="" />
-                <p class="item__name">Heroku</p>
-              </div>
-              <div class="item">
-                <img src="/src/assets/icons/check.svg" alt="" />
-                <p class="item__name">Netlify</p>
-              </div>
-
-              <!-- <div class="item">
-                <img src="/src/assets/icons/check.svg" alt="" />
-                <p class="item__name">SSRs, SSGs, PWAs</p>
-              </div> -->
             </div>
           </div>
 
