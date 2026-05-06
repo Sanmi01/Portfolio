@@ -7,20 +7,49 @@
     Hi There! My name is Oluwasanmi Awelewa, but you can call me NiCode.
   </about-page-paragraph>
   <!-- <about-page-image /> -->
+
   <about-page-paragraph>
-    I'm a frontend engineer with over four years of experience and a deep-rooted passion for React and creating exceptional web applications. My journey into frontend development began with an insatiable curiosity for building user interfaces that blend functionality with aesthetics seamlessly. As I delved into the React ecosystem, I was captivated by its component-based architecture and its ability to deliver dynamic and interactive user experiences.
+    I'm a software engineer with over five years of experience, with frontend
+  development as my core craft and a deep-rooted passion for React. My journey
+  began with an insatiable curiosity for building user interfaces that blend
+  functionality with aesthetics seamlessly, and as I delved into the React
+  ecosystem, I was captivated by its component-based architecture and ability
+  to deliver dynamic, interactive user experiences.
   </about-page-paragraph>
+
   <about-page-paragraph>
-    With a strong focus on React, I've honed my skills in crafting reusable components, managing application state efficiently, and implementing responsive designs. I've also expanded into building AI-powered applications, integrating services like OpenAI to create intelligent features such as chat assistants and recommendation systems.
+    With a strong focus on React, I've honed my skills in crafting reusable
+  components, managing application state efficiently, and implementing
+  responsive designs that scale across devices and use cases.
   </about-page-paragraph>
+  
   <about-page-paragraph>
-    Beyond the frontend, I have hands-on experience with backend technologies like Node.js, NestJS, and MongoDB, allowing me to build complete, end-to-end solutions when needed. This fullstack perspective helps me collaborate more effectively with backend teams and understand the bigger picture.
+    Beyond the frontend, I work comfortably across the stack, building backend
+  services with Node.js and NestJS, designing data models in MongoDB, and
+  shipping complete end-to-end products. This breadth lets me collaborate
+  effectively with teams of any shape and own features from idea to production.
   </about-page-paragraph>
+  
   <about-page-paragraph>
-    Collaboration and teamwork are essential values in my approach to development. Working alongside designers, backend developers, and other stakeholders, I believe in fostering an environment where ideas are shared openly and where constructive feedback leads to the best possible outcomes.
+  More recently, I've been expanding into AI engineering, building
+  AI-powered applications and agentic systems with LLMs, RAG pipelines, and the
+  Model Context Protocol. I've worked on multi-agent architectures,
+  fine-tuning, and integrating AI into real products, blending my frontend
+  instincts with the new capabilities these tools unlock.
   </about-page-paragraph>
+
   <about-page-paragraph>
-    If you're seeking a frontend engineer with a passion for React, experience building AI-powered applications, and a drive to deliver outstanding user experiences, I'd be thrilled to collaborate. Let's join forces and create something extraordinary together!
+    Collaboration and teamwork are essential values in my approach to
+    development. Working alongside designers, backend developers, and other
+    stakeholders, I believe in fostering an environment where ideas are shared
+    openly and where constructive feedback leads to the best possible outcomes.
+  </about-page-paragraph>
+  
+  <about-page-paragraph>
+    If you're looking for a software engineer who builds polished frontends,
+    ships full-stack products, and brings AI capabilities into the mix, I'd be
+    thrilled to collaborate. Let's join forces and create something extraordinary
+    together!
   </about-page-paragraph>
 </div>
     <div class="about-page-design-elements">

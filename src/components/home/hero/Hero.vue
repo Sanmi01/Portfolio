@@ -12,9 +12,7 @@
           </div>
         </div>
         <p class="bottom-caption">
-          <!-- Creating solutions with my programming abilities -->
-          <!-- A fullstack web engineer -->
-          A Frontend Engineer
+          A Software Engineer, frontend at heart, full-stack in practice
         </p>
 
         <div class="stack-icons">

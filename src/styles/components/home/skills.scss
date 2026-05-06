@@ -30,10 +30,11 @@
       margin-top: 40px;
       display: grid;
       grid-template-columns: repeat(1, minmax(200px, 1fr));
-      @media screen and (min-width: 660px) {
-        // grid-template-columns: repeat(2, minmax(200px, 1fr));
-        @media screen and #{globals.$breakpoint-md} {
-          // grid-template-columns: repeat(3, minmax(200px, 1fr));
+      align-items: stretch;
+      @media screen and (min-width: 800px) {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        @media screen and (min-width: 1200px) {
+          grid-template-columns: repeat(3, minmax(200px, 1fr));
         }
       }
       gap: 40px;
@@ -43,31 +44,33 @@
 }
 
 .skill_card {
-  padding: 40px;
+  padding: 30px 25px;
   position: relative;
   background-color: globals.$secondaryDark;
   border-radius: 10px;
   // max-width: 350px;
-  margin: auto;
-  max-width: 80%;
+  margin: 0;
+  max-width: 100%;
   transition: 100ms ease-in-out;
   transition-property: box-shadow, transform;
   transform-style: preserve-3d;
   perspective: 10000px;
   box-shadow: 0px 3px 6px rgba($color: #000000, $alpha: 0.2);
+  display: flex;
+  flex-direction: column;
 
   @media (max-width: 580px) {
     max-width: 100%;
     padding: 2rem;
   }
-  &.backend {
-    @media screen and (min-width: 660px) {
-      top: -196px;
-      @media screen and #{globals.$breakpoint-md} {
-        top: 0px;
-      }
-    }
-  }
+  // &.backend {
+  //   @media screen and (min-width: 660px) {
+  //     top: -196px;
+  //     @media screen and #{globals.$breakpoint-md} {
+  //       top: 0px;
+  //     }
+  //   }
+  // }
   &:hover {
     box-shadow: -3px 4px 25px rgba($color: #000000, $alpha: 0.28);
     .skill_card__action {
@@ -189,15 +192,16 @@
     &--list {
       .item {
         display: flex;
-        gap: 10px;
-        grid-gap: 10px;
+        gap: 8px;
+        grid-gap: 8px;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: flex-start;
         margin-bottom: 15px;
-        max-width: max-content;
+        white-space: nowrap;
         &__name {
           line-height: 1.7em;
           margin-top: -6px;
+          font-size: 0.9em;
         }
       }
     }

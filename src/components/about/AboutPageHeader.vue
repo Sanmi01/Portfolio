@@ -7,7 +7,7 @@
       Omolade
     </h1> -->
     <p class="name_container__caption">
-      Frontend Engineer
+      Software Engineer
     </p>
     <div class="name_container__social-media-links">
       <a v-for="platform in platforms" :key="platform.id" :href="platform.url">

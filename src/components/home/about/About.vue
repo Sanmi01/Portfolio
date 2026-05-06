@@ -7,20 +7,22 @@
       <div class="content_box">
         <article class="article">
           <p class="paragraph">
-            Hello! I'm <span class="highlight" style="color: rgb(80, 255, 179);"> Oluwasanmi Awelewa </span> call me <span class="highlight" style="color: rgb(255, 220, 80);"> NiCode </span>  if you please. I am a Frontend Engineer.
+            Hello! I'm <span class="highlight" style="color: rgb(80, 255, 179);"> Oluwasanmi Awelewa </span>, call me <span class="highlight" style="color: rgb(255, 220, 80);"> NiCode </span> if you please. I am a Software Engineer with frontend development as my core craft.
           </p>
           <p class="paragraph">
-            Unlike a number web engineers that focus on frontend or backend only, I have a responsibility to subject myself to different fun ideas, tools and technologies that can be sometimes frustrating. Notwithstanding, I have been able to expose myself to new environments from an open-minded perspective.
+            Unlike many web engineers who focus on frontend or backend only, I take it upon myself to explore different ideas, tools, and technologies, even when they push me out of my comfort zone. This open-minded approach has let me grow into new environments and ship complete, end-to-end products.
           </p>
           <p class="paragraph">
-            For the past two years, I have learnt web development as a means to increase my problem solving abilities and I am glad I have a chance at making an impact in the new world.
+            Over the past five years, I've used software engineering as a means to sharpen my problem-solving abilities and build things that matter. More recently, I've been expanding into AI engineering, and I'm excited about the chance to make an impact in this new world.
           </p>
-          <button class="action">
-            <app-icon icon="work" />
-            <span class="label">
-              Get in touch
-            </span>
-          </button>
+          <router-link to="/contact">
+            <button class="action">
+              <app-icon icon="work" />
+              <span class="label">
+                Get in touch
+              </span>
+            </button>
+          </router-link>
         </article>
       </div>
     </div>
